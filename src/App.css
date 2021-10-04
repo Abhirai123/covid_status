@@ -1,0 +1,111 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ul{
+  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+
+}
+
+ul li{
+  width: 31.33%;
+  height: 180px;
+  padding: 54px 20px 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+ul li:hover{
+  transform: scale(0.9);
+}
+
+ul li:nth-child(1){
+  background: #00BCD5;  
+}
+
+ul li:nth-child(2){
+  background: #00BCD5;  
+}
+
+ul li:nth-child(3){
+  background: #00BCD5;  
+}
+
+ul li:nth-child(4){
+  background: #00BCD5;  
+}
+
+ul li:nth-child(5){
+  background: #00BCD5;  
+}
+
+ul li:nth-child(6){
+  background: #00BCD5;  
+}
+
+@media screen and (max-width:767px) {
+
+  ul{
+    margin-left: 21px;
+  }
+  ul li{
+    width: 100%;
+  }
+}
+
+
+table{
+  box-shadow: 0 0 5px rgb(0, 0, 0.2);
+  
+}
+
+table thead tr th{
+  background: green;
+  padding: 20px;
+}
+
+tbody th, tbody td{
+  padding: 10px;
+}
+
+/* table td: */
